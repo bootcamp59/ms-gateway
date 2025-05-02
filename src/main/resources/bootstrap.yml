@@ -3,7 +3,6 @@ spring:
     name: ms-gateway
   cloud:
     config:
-      enabled: true
       uri: http://config-server:8888
       profile: dev
       label: develop
